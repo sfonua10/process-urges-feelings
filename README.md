@@ -23,3 +23,5 @@ Animations with fade in and fade out
 Resources:
 https://www.youtube.com/watch?v=A95mIE2HdcY
 https://codesandbox.io/s/uselongpress-forked-5mv89?file=/src/App.tsx (https://www.npmjs.com/package/use-long-press)
+
+- code infrastructure changes and cleanup unused code

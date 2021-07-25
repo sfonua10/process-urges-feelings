@@ -5,7 +5,7 @@ import { Modal } from "../components/urges/modal";
 const Urges = () => {
     //Be aware of body and thoughts!
     //Many people are so disconnected with the bodies that they don’t realize they’re feeling an urge until they’re looking at the pornography or until they’re way deep into the urge
-    const [showModal, setShowModal] = useState(false);
+    const [showModal, setShowModal] = useState(true);
     // useEffect(() => {
 
     // }, [])

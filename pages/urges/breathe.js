@@ -15,7 +15,6 @@ const Breathe = () => {
                 text2="I'm not trying to make it go away. I'm not trying to make urges go away. I want to experience it, in its fulness"
                 modalList={exercises}
             />
-            <button onClick={() => setShowModal(true)}>Other Ideas</button>
         </>
     )
 }
