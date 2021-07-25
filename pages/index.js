@@ -14,19 +14,33 @@ export default function Home() {
           Process
         </h1>
 
-        <div className="flex m-6">
+        <div className="grid grid-cols-2">
           <Link href="/urges">
             <a
-              className="p-6 m-2 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+              className="p-6 m-2 text-left border rounded-xl hover:text-blue-600 focus:text-blue-600"
             >
               <h3 className="text-2xl font-bold text-center">Urges</h3>
             </a>
           </Link>
           <Link href="/feelings">
             <a
-              className="p-6 m-2 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+              className="p-6 m-2 text-left border rounded-xl hover:text-blue-600 focus:text-blue-600"
             >
               <h3 className="text-2xl font-bold text-center">Feelings</h3>
+            </a>
+          </Link>
+          <Link href="/commitment">
+            <a
+              className="p-6 m-2 text-left border rounded-xl hover:text-blue-600 focus:text-blue-600"
+            >
+              <h3 className="text-2xl font-bold text-center">Commitments</h3>
+            </a>
+          </Link>
+          <Link href="/thoughtBoard">
+            <a
+              className="p-6 m-2 text-left border rounded-xl hover:text-blue-600 focus:text-blue-600"
+            >
+              <h3 className="text-2xl font-bold text-center">Thought Board</h3>
             </a>
           </Link>
         </div>
