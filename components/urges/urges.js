@@ -26,7 +26,7 @@ const Urges = ({ stepNum, stepAction, subText, data, text1, text2, heading, list
                 <p>
                     {text2}
                 </p>
-                {list && list.map(item => <li>{item}</li>)}
+                {list && list.map(item => <li key={item}>{item}</li>)}
             </section>
             {sectionContent &&
                 <section className="mt-4 max-w-2xl text-base text-gray-500 lg:mx-auto">
