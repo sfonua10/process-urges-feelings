@@ -1,14 +1,24 @@
+import { useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
+import { Modal } from '../components/urges/modal';
 
 export default function Home() {
+  const [showModal, setShowModal] = useState(true);
+  const milestones = [
+    "Urges",
+    "Learn & Move on",
+    "Coaching",
+    "Thoughtwork",
+    "Videos"
+  ]
   return (
     <div className="flex flex-col justify-center min-h-screen py-2">
       <Head>
         <title>Process Urges/Feelings</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      {showModal && <Modal setShowModal={setShowModal} mainText="Milestones" modalList={milestones} />}
       <main className="flex flex-col justify-center w-full flex-1 text-center">
         <h1 className="text-6xl font-bold">
           Process

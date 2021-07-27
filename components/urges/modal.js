@@ -13,8 +13,10 @@ export const Modal = ({ setShowModal, mainText, subText, modalList }) => {
                                     <p className="text-sm text-gray-500">{subText}</p>
                                 </div>
                                 }
-                                {modalList &&
+                                {modalList && <ul className="list-decimal text-left px-8"> {
                                     modalList.map(idea => <li>{idea}</li>)
+                                }
+                                </ul>
                                 }
                             </div>
                         </div>
