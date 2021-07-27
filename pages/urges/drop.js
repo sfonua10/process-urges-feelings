@@ -1,5 +1,4 @@
 import Urges from "../../components/urges/urges";
-import { BackButton } from "../../components/urges/back";
 
 const Drop = () => {
     const sensations = [
