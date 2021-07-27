@@ -20,12 +20,12 @@ export const urgesQA = [
     {
         id: 0,
         question: "What is an urge?",
-        answer: "An urge is an emotion that is intensely driving you to do something. Other words for urges are cravings, wantings, and desire. The urge to view pornography is the emotion driving you to view porn so that your brain can be rewarded with dopamine, creating a temporary pleasure."
+        answer: ["An urge is an emotion that is intensely driving you to do something. Other words for urges are cravings, wantings, and desire. The urge to view pornography is the emotion driving you to view porn so that your brain can be rewarded with dopamine, creating a temporary pleasure."]
     },
     {
         id: 1,
         question: "Is what I’m feeling an urge?",
-        answer: "If you’re wanting to view pornography, or if you want to start viewing things that could lead to viewing pornography, that’s an urge."
+        answer: ["If you’re wanting to view pornography, or if you want to start viewing things that could lead to viewing pornography, that’s an urge."]
     },
     {
         id: 2,
@@ -47,7 +47,7 @@ export const urgesQA = [
     {
         id: 4,
         question: "My urges are super short, should I still count them?",
-        answer: "Yes! Processing short urges is a win. If it is short but would usually result in you viewing porn, count it."
+        answer: ["Yes! Processing short urges is a win. If it is short but would usually result in you viewing porn, count it."]
     },
     {
         id: 5,
