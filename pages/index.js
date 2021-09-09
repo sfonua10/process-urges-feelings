@@ -60,6 +60,13 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-center">Covenants</h3>
             </a>
           </Link>
+          <Link href="/templeQuestions">
+            <a
+              className="p-6 m-2 text-left border rounded-xl hover:text-blue-600 focus:text-blue-600"
+            >
+              <h3 className="text-2xl font-bold text-center">Temple Questions</h3>
+            </a>
+          </Link>
         </div>
       </main>
     </div>
